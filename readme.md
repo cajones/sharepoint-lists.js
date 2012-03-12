@@ -3,7 +3,7 @@
 just some sharepoint list grabbing code
 
 
-  $(document).ready(function () {
+    $(document).ready(function () {
       var listSource = new Sharepoint.ListSource({ url: '//mysharepoint.com/sites/blah/portal/_vti_bin/lists.asmx' });
       var wrapAndAppend = function (selector, value) {
           $(selector).append($('<option>').append(value));
@@ -16,5 +16,4 @@ just some sharepoint list grabbing code
           });
    
       });
-   
-  });
+    });
